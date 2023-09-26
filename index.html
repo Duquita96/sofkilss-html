@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Example</h2>
+    First name: <input type="text" name="firstname" /> <br /><br />
+    Last name: <input type="text" name="lastname" /> <br /><br />
+
+    <div>
+        First name: <input type="text" class="red-input" name="fname" value="red-focus" />
+    </div>
+    <div>
+        Last name: <input type="text" class="blue-input" name="lname" value="blue-focus" />
+    </div>
+
+    <textarea col="30" rows="4" placeholder="click on me..."></textarea>
+    <input type="button" value="click me" />
+    <input class="place-h" placeholder="text here...">
+
+    <form class="my-form">
+        <label for="country">Country:</label>
+        <input id="country" />
+        <br />
+        <label for="city">City:</label>
+        <input id="city">
+    </form>
+
+    <h2>CSS</h2>
+    <a href="https://google.com">Google</a>
+    <a href="https://yahooo.com">Yahoo</a>
+    <a href="https://amazon.com" target="_blank">Amazon</a>
+
+    <p title="David help me">I am the first text</p>
+    <p title="I am the second one">I am the second text</p>
+    <p title="I am the third one">I am the third text</p>
+
+
+    <p>special input
+        <input value="You are not allow to change" readonly />
+    </p>
+
+    car: <input value="VW" />
+    country: <input value="Germany" disabled />
+
+
+
+    <select>
+        <option>css</option>
+        <option>Nodejs</option>
+        <option>JS</option>
+        <option disabled>React</option>
+
+    </select>
+
+
+    <label>Male
+        <input type="radio" name="gender" value="male" />
+    </label>
+
+    <label>Female
+        <input type="radio" name="gender" value="female" />
+    </label>
+
+
+    <form>
+        <label>Chose a course</label>
+        <select name="course">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="Vue">Vue</option>
+            <option value="NextJS">NextJS</option>
+        </select>
+        <input type="submit" />
+    </form>
+
+
+    <!-- checkboxes -->
+    <p>Hobbies</p>
+    <input type="checkbox" /> Playstation
+    <input type="checkbox" /> Music
+    <input type="checkbox" /> Sport
+    <input type="checkbox" /> Reading
+
+    <input type="range" min="1" max="5" />
+    <input type="color" />
+    <input type="week" />
+    <input type="month" />
+    <input type="time" />
+    <input type="date" />
+    <input type="search" />
+    <input type="file" accept="pdf" />
+
+    <label>Choose a color</label>
+    <select name="color">
+        <option value="" disabled selected>Select a color</option>
+        <optgroup label="BLUE">
+            <option>Light Blue</option>
+            <option>Navy Blue</option>
+        </optgroup>
+
+        <optgroup label="Green">
+            <option>Light Green</option>
+            <option>Yellowgreen</option>
+        </optgroup>
+    </select>
+
+    <input list="clubs" />
+    <datalist id="clubs">
+        <option value="Barcelona"></option>
+        <option value="Atletico"></option>
+        <option value="Real Madrid"></option>
+    </datalist>
+
+    <form>
+        <label for="uname">Username:</label>
+        <input type="text" required /> <br />
+        <label for="pass">Password:</label>
+        <input type="pass" type="password" required /> <br />
+        <label>Between 1 - 5</label>
+        <input type="number" min="1" max="5" />
+
+        car
+        <input class="test" type="text" pattern="[A-Za-z]{1,5}"/>
+    </form>
+
+
+</body>
+
+</html>

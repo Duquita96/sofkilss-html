@@ -1,0 +1,54 @@
+.red-input:focus {
+  background-color: red;
+  color: yellow;
+}
+/* focus sirve parq eu cuando des click cambie de color el input */
+
+.blue-input:focus {
+  background-color: blue;
+  color: #fff;
+  font-weight: bold;
+}
+
+textarea:focus {
+  background-color: pink;
+}
+
+.place-h:focus::placeholder {
+  color: transparent;
+}
+
+::placeholder {
+  color: red;
+}
+
+.my-form {
+    border: 2px solid blueviolet;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.my-form:focus-within {
+  background-color: red;
+}
+/* within sirve para hacer focus alrededor de algo cuando se le hace click */
+
+#country:focus {
+outline: none;
+}
+
+a[target] {
+    background-color: lime;
+}
+
+
+[title~="one"] {
+    background-color: yellow;
+}
+
+.test:invalid {
+    color: red;
+}
+.test:valid {
+    color: green;
+}
